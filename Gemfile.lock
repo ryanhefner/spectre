@@ -87,6 +87,10 @@ GEM
     diff-lcs (1.2.5)
     domain_name (0.5.20160309)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.2.0)
+    dotenv-rails (2.2.0)
+      dotenv (= 2.2.0)
+      railties (>= 3.2, < 5.1)
     dragonfly (1.0.12)
       addressable (~> 2.3)
       multi_json (~> 1.0)
@@ -279,6 +283,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   cucumber-rails
   database_cleaner
+  dotenv-rails
   dragonfly (~> 1.0.12)
   factory_girl_rails (~> 4.0)
   image_size
@@ -303,4 +308,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.14.3
+   1.14.6
